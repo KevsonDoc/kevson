@@ -8,6 +8,7 @@ server.get('/', function(req, res) {
 
 server.use('/css', express.static(__dirname + '/static/css'));
 server.use('/javascript', express.static(__dirname + '/static/javascript'));
+server.use('/assets', express.static(__dirname + '/static/assets'));
 
 server.use('/err', express.static(__dirname + '/static/err/index.html'));
 

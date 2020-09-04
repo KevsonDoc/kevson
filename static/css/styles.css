@@ -100,6 +100,31 @@ html, body {
 
 #page main #section-routine {
     width: 100vw;
-    height: 100vh;
+    min-height: 100vh;
     background-color: var(--bg-light);
+    text-align: center;
+    padding-top: 2rem;
+    align-items: center;
+}
+
+#page main #section-routine h1 {
+    font: 700 30px "Comfortaa", sans-serif;
+    color: var(--text-primary);
+    margin-bottom: 2rem;
+}
+
+#page main #section-routine hr {
+    width: 5rem;
+}
+
+#page main #section-routine .rountine-container-block h1 {
+    font: 400 20px "Comfortaa", sans-serif;
+    margin-bottom: 0.5rem;
+    color: var(--bg-secondary0);
+}
+
+#page main #section-routine .rountine-container-block .rountine-image {
+    width: 15rem;
+    height: 7.5rem;
+    margin-bottom: 3rem;
 }
